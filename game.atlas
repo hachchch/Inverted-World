@@ -48,9 +48,9 @@ TileSets/FantasyHex/Tiles/Lake Fuji
   index: -1
 TileSets/FantasyHex/Tiles/Mariana Trench
   rotate: false
-  xy: 436, 130
-  size: 38, 50
-  orig: 38, 50
+  xy: 436, 135
+  size: 38, 45
+  orig: 38, 45
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Pamukkale Falls
