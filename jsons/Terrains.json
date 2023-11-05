@@ -314,11 +314,27 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": -0.3,
-		"occursOn": ["Grassland"],
+		"occursOn": ["Oasis"],
 		"uniques": ["Rare feature","Rough terrain",
 					"Only [All Road] improvements may be built on this tile",
 					"Neighboring tiles will convert to [Desert]",
 					"Units ending their turn on this terrain take [10] damage",
 					"Considered [Undesirable] when determining start locations"]
+	},
+	// features
+	{
+		"name": "Oasis",
+		"type": "TerrainFeature",
+		"food": 3,
+		"gold": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Desert"],
+		"uniques": ["Fresh water <in tiles without [UnOasis]>", "Rare feature",
+					"Only [All Road] improvements may be built on this tile",
+					"Always Fertility [4] for Map Generation",
+					"Considered [Food] when determining start locations",
+					"Considered [Desirable] when determining start locations"]
 	},
 ]
