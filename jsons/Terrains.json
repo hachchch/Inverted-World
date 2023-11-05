@@ -308,13 +308,14 @@
 	// Specieal features
 	{
 		"name": "UnOasis",
-		"type": "TerrainFeature",
+		"type": "NaturalWonder",
 		"overrideStats": true,
 		"faith": 1,
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": -0.3,
 		"occursOn": ["Desert","Grassland"],
+		"weight": 30,
 		"uniques": ["Rare feature","Rough terrain",
 					"Only [All Road] improvements may be built on this tile",
 					"Units ending their turn on this terrain take [10] damage",
