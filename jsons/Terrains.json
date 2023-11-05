@@ -314,10 +314,10 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": -0.3,
-		"occursOn": ["Oasis"],
+		"occursOn": ["Desert","Oasis"],
 		"uniques": ["Rare feature","Rough terrain",
 					"Only [All Road] improvements may be built on this tile",
-					"Neighboring tiles will convert to [Desert]",
+					"Neighboring tiles will convert to [Desert]", // It seem not working
 					"Units ending their turn on this terrain take [10] damage",
 					"Considered [Undesirable] when determining start locations"]
 	},
