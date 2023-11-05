@@ -317,8 +317,8 @@
 		"occursOn": ["Desert","Grassland"],
 		"uniques": ["Rare feature","Rough terrain",
 					"Only [All Road] improvements may be built on this tile",
-					"Neighboring tiles except [Mountain] will convert to [Desert]",
 					"Units ending their turn on this terrain take [10] damage",
-					"Considered [Undesirable] when determining start locations"]
+					"Considered [Undesirable] when determining start locations",
+					"Neighboring tiles except [Mountain] will convert to [Desert]"]
 	},
 ]
