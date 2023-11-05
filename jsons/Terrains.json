@@ -308,7 +308,7 @@
 	// Specieal features
 	{
 		"name": "UnOasis",
-		"type": "NaturalWonder",
+		"type": "TerrainFeature",
 		"overrideStats": true,
 		"faith": 1,
 		"movementCost": 2,
